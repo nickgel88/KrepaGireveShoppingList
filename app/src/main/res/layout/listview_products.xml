@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="240"
+    android:background="@drawable/border_in_textview"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="110"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#303030" />
+
+    <EditText
+        android:id="@+id/product_balance"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="50"
+        android:ems="10"
+        android:gravity="end"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/product_toBuy"
+        />
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#303030" />
+
+    <EditText
+        android:id="@+id/product_toBuy"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="50"
+        android:ems="10"
+        android:gravity="end"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:imeOptions="actionNext"
+        />
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#303030" />
+
+    <CheckBox
+        android:id="@+id/check_isUrgent"
+        android:layout_width="0dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_height="50dp"
+        android:layout_weight="40"
+       />
+
+
+</LinearLayout>

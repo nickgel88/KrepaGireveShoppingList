@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border_in_textview">
+   <item android:id="@+id/menu_categories"
+       android:background="@drawable/border_in_textview"
+       android:title="Κατηγορίες">
+      <menu>
+         <group android:checkableBehavior="single">
+            <!--<item android:id="@+id/noCategory" android:title="Χωρίς Κατηγορία"/>-->
+         </group>
+      </menu>
+   </item>
+</menu>

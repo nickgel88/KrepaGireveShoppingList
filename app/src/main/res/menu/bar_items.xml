@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/createCategory"
+        android:icon="@mipmap/create_item"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="createCategory" />
+    <item
+        android:id="@+id/removeCategory"
+        android:icon="@mipmap/delete_item"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="removeCategory" />
+    <item
+        android:id="@+id/createProduct"
+        android:icon="@mipmap/create_item"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="createProduct" />
+    <item
+        android:id="@+id/removeProduct"
+        android:icon="@mipmap/delete_item"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="RemoveProduct" />
+    <item
+        android:id="@+id/openFile"
+        android:icon="@mipmap/open_file"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="OpenFile" />
+    <item
+        android:id="@+id/saveFile"
+        android:icon="@mipmap/save_file"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="SaveFile" />
+    <item
+        android:id="@+id/shareFile"
+        android:icon="@mipmap/share_file"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="SaveFile" />
+</menu>
